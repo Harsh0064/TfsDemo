@@ -23,5 +23,6 @@ namespace DatabaseFirst
         public Nullable<int> Standard_StandardId { get; set; }
     
         public virtual Standard Standard { get; set; }
+        public string abc { get; set; }
     }
 }
